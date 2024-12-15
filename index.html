@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build template HTML CSS online free!</title>
+  <link href="css/sidebar.css" rel="stylesheet">
+  <link id="libraryCss" href="#" rel="stylesheet">
+  <script id="libraryJs" defer></script>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="all-wrapper">
+    <div id="sidebar">
+      <button id="toggle-sidebar" onclick="toggleSidebar()">&#9776;</button>
+      <button id="close-sidebar" onclick="closeSidebar()">&#x2715;</button>
+      <div id="sidebar-content">
+        <div class="sidebar-group">
+          <select id="select-library" style="width: 150px">
+          </select>
+          &nbsp;
+          <button class="w-btn w-btn-primary" id="chooseLibrary" onclick="choose_library()">Switch library</button>
+        </div>
+
+        <div class="sidebar-group">
+          <select style="width: 250px" id="select-item">
+            <option></option>
+          </select>
+          &nbsp;
+          <button class="w-btn w-btn-primary" id="addElement" onclick="addElement()">Add</button>
+        </div>
+
+        <div id="mydivcontent" class="ui-sortable"></div>
+        <button class="w-btn w-btn-contributor" onclick="showContributors()">Show Contributors</button>
+        <button class="w-btn w-btn-download" onclick="download()">Download</button>
+      </div>
+    </div>
+
+    <div id="wrapper">
+      <h1>Build template HTML CSS online free!</h1>
+    </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha512-XMVd28F1oH/O71fzwBnV7HucLxVwtxf26XV8P4wPk26EDxuGZ91N8bsOttmnomcCD3CS5ZMRL50H0GgOHvegtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.15.1/beautify-html.js" integrity="sha512-JV/9kqg7oedxS4adSbOs5i+OtPSshFJ7zFqZDN+vD1WenXdwkJXNwR8lJnc6VBaAp2pOXpJmvXU8yqP4AYGJIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/index.js"></script>
+<script src="js/drop.js"></script>
+<script src="js/download.js"></script>
+</body>
+</html>
+
+<!-- Contributors  -->
+<div id="contributors" class="contributors">
+  <div class="contributors-content">
+    <a href="https://github.com/tranquanghuy-rightsvn/template-builder" target="_blank" class="let-contributor">Click to contribute code with us</a><span class="close" onclick="closeContributors()">&times;</span>
+    <div class="ctb-web100">
+      <a href="https://web100.vn" target="_blank">Web100</a>
+      <a href="https://filminginvietnam.net" target="_blank">Filming in Vietnam</a>
+      <a href="https://zreview.vn" target="_blank">Zreview</a>
+    </div>
+  </div>
+</div>

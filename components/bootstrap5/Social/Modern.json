@@ -1,0 +1,4 @@
+{
+  "html": "<div class=\"network n1\"><div class=\"container\"><div class=\"row\"><div class=\"col-xl-3 col-md-6 col-xs-12 network-item\"><a href=\"#\" class='facebook'><img src=\"https://web100.vn/w-images/facebook.svg\"></a></div><div class=\"col-xl-3 col-md-6 col-xs-12 network-item\"><a href=\"#\" class='twitter'><img src=\"https://web100.vn/w-images/twitter.svg\"></a></div><div class=\"col-xl-3 col-md-6 col-xs-12 network-item\"><a href=\"#\" class='whatsapp'><img src=\"https://web100.vn/w-images/phone.svg\"></a></div><div class=\"col-xl-3 col-md-6 col-xs-12 network-item\"><a href=\"#\" class='instagram'><img src=\"https://web100.vn/w-images/instagram.svg\"></a></div></div></div></div>",
+  "css": ".n1.network img{width:150px}.n1.network{margin:86px 0;padding:0 60px}.n1 .network-item{display:flex;justify-content:center;margin-bottom:30px}"
+}

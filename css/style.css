@@ -1,0 +1,166 @@
+
+#mydiv {
+  position: fixed;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  top: 10px;
+  left: calc(100vw - 440px);
+  width: 420px;
+  padding-bottom: 20px;
+}
+
+
+.uni-detail-menu-item p{
+  width: 165px !important;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #e7e0e0;
+  color: #fff;
+  border-bottom: 1px solid #d3d3d3;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.dragable{
+  background: #ebebeb !important;
+}
+
+.select-element{
+  width: 220px !important;
+  margin-right: 10px;
+}
+
+.uni-item{
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  margin: 5px 3px;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uni-box-item{
+  margin-left: 20px;
+  margin: 5px 3px;
+  border: 1px solid #000;
+  padding: 5px;
+  background: #c5bfbf;
+}
+
+.display-none{
+  display: none;
+}
+
+.uni-detail-item{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.uni-detail-menu-item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.uni-detail-menu-item-dropdown{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.uni-detail-menu-item-button{
+  display: flex;
+  width: 110px;
+  gap: 3px;
+}
+
+.uni-wrapper input, button, select:focus{
+  box-shadow: none !important;
+}
+
+.uni-wrapper button, select:focus{
+  height: 40px;
+}
+
+#uni-toolbar{
+  width: 90%;
+  height: 80px;
+  position: fixed;
+  bottom: 20px;
+  left: 5%;
+  border: 1px solid #000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #e8e8e8;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 100;
+}
+
+#uniq-add-menu-item{
+  width: 164px;
+}
+
+#mydivcontent{
+  max-height: calc(100vh - 200px);;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.uni-detail-item-dropdown-children{
+  width: 370px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-bottom: 5px;
+  padding-right: 20px
+}
+.uni-detail-item-dropdown{
+  padding: 3px;
+  border: 1px solid #000;
+  background: white;
+  margin-bottom: 3px;
+}
+
+.uni-detail-item-dropdown-children input{
+  width: 150px;
+  background: white;
+}
+
+.btn-dropdown-menu{
+  background: white;
+  color: red !important;
+  border: 1px solid red !important;
+  padding: 5px !important;
+  margin-right: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.mr-3{
+  margin-right: 10px
+}
+
+.btn-dropdown{
+  background: white !important;
+  border: 1px solid red !important;
+  color: red !important;
+}
+
+.uni-detail-item select{
+  width: 40% !important;
+}
+
+.uni-detail-item input[type='text']{
+  width: 80% !important;
+}
+
+.hidden {
+  display: none !important;
+}
